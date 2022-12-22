@@ -12,6 +12,7 @@ As the coding assessment did not specify certain details, I did my best to adher
  <li> There was no hard restriction on the coding language specified. Therefore, I chose to complete the assessment using Python3.8. The methods required in the constraints have been implemented using Python syntax.</li>
  <li> I assumed that the characters in the reference table are case sensitive. Therefore, any characters in the plain text / specified offset character that is not found in the specified reference table would be treated as not within the reference table, even if it is just the lower-case version of the characters</li>
  <li> As the assessment required me to cater to custom offset characters, I implemented my encode() and decode() functions to take in an additional argument that specifies the offset character, which I assume it is alright to do so. </li>
+ <li> There were no specifications regarding pathing / number of files that I am allowed to submit. Thus, I made use of relative pathing and hardcoded these paths in my code. Changing the project structure could result in the program failing </li>
 </ul>
  
 ### Instructions:
